@@ -1,0 +1,424 @@
+#hero {
+  width: 100%;
+  background-size: cover;
+  /* position: relative; */
+
+
+}
+
+.wealth-management {
+  background-color: rgba(249, 249, 249, 1);
+  overflow: hidden;
+  /* background:rgba(184, 38, 38, 0.701) */
+}
+
+
+
+.wealth-management .hero {
+  background-color: rgba(249, 249, 249, 1);
+  /* background:rgba(184, 38, 38, 0.701)  */
+}
+
+.wealth-management .overlap {
+  position: relative;
+  padding-top: 20px;
+}
+
+.wealth-management .text-wrapper {
+  font-family: "Tenor Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: #5c5c5c;
+  font-size: 25px;
+  text-align: center;
+  width: 90%;
+
+}
+
+
+.wealth-management .text-wrapper-2 {
+  font-family: "Tenor Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: #22366c;
+  font-size: 35px;
+  
+  letter-spacing: 0;
+
+
+}
+
+.wealth-management .overlap .l-mandala img {
+
+ width: 120px;
+  /* position: absolute;
+  bottom: 0; */
+  margin-left: -15px;
+  opacity: 0.5;
+ 
+
+}
+
+.wealth-management .overlap .r-mandala img {
+  /* position: absolute;
+  top: 0; */
+  margin-left: 15px;
+  width: 100px;
+  opacity: 0.5;
+  
+
+}
+.overlap-group{
+  margin-top: 3rem;
+}
+
+
+  /* tetsimonial */
+
+
+.testimonials{
+    background-color: rgba(231, 231, 231, 1);
+    padding-top: 20px;
+  
+}
+.testimonials .row{
+    margin-left: 5%;
+}
+
+  /* testimonial cards  */
+  .card:hover {
+    box-shadow: 2px 3px 3px 4px rgba(0, 0, 0, 0.1);
+    /* transform: translate(-5px); */
+    transition: 0.2s ease-in-out;
+  }
+  .card{
+    border-radius: 10px;
+    border: none;
+  }
+  .testimony {
+    position: relative;
+    /* width: 350px; */
+    height: 220px;
+    background-color: #ffffff;
+   
+    background-image: url(../img/images/bag-card-1.png);
+    background-size: 100% 100%;
+}
+
+.testimony .text-wrapper {
+    position: relative;
+    top: 183px;
+    /* left: 230px; */
+    font-family: "Tenor Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #22366c;
+    font-size: 1.8rem;
+    letter-spacing: 0;
+    line-height: normal;
+    text-decoration: underline;
+   
+}
+
+.testimony .div {
+    position: absolute;
+    top: 19px;
+    left: 20px;
+    font-family: "Tenor Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #848484;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.testimony .sales-full-time {
+    position: absolute;
+    top: 154px;
+    left: 20px;
+    font-family: "Tenor Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #404040;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.testimony .p {
+    position: absolute;
+    top: 183px;
+    left: 20px;
+    font-family: "Tenor Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #848484;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.testimony .text-wrapper-2 {
+    position: absolute;
+    /* width: 490px; */
+    top: 58px;
+    left: 20px;
+    font-family: "Tenor Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #22366c;
+    font-size:2.5rem;
+    letter-spacing: 0;
+    line-height: normal;
+}
+  /* /\end of testimonials cards */
+  .drop-menu select{
+    padding: 10px;
+    font-family: "Tenor Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #22366c;
+    font-size: 1.5rem;
+
+
+
+  }
+  .drop-menu input{
+    padding: 10px;
+    font-weight: 400;
+    color: #22366c;
+  }
+  
+  .drop-menu button {
+   padding: 10px;
+    position: absolute;
+    left: 85%;
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+    color: #22366c;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .drop-menu button:hover {
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+    transform: translate(-5px);
+    transition: 0.2s ease-in-out;
+    color: #f6f6f7;
+  }
+  
+.main .btn {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 3rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+  }
+  .main .form-control{
+    font-size: 1.5rem;
+    color: #22366c;
+  }
+
+    /*  */
+    .slide-content h3{
+   
+        font-family: "Tenor Sans";
+        font-weight: 400;
+        color: #fafafa;
+        font-size: 2.3rem;
+        text-align: center;
+        /* width: 90%; */
+      
+      
+    }
+    
+    .carousel-text{
+      font-family: "Tenor Sans";
+      font-weight: 400;
+      color: #eeedf4;
+      /* background: #47474d; */
+      font-size: 2rem;
+      text-align: center;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    img {
+      max-width: 100%;
+      /* display: block; */
+    }
+    
+    .slide {
+      max-width: 100%;
+      margin: 20px auto;
+      display: grid;
+      /* box-shadow: 0 4px 20px 2px rgba(0, 0, 0, 0.4); */
+    }
+    
+    .slide-items {
+      position: relative;
+      grid-area: 1/1;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+    
+    .slide-nav {
+      grid-area: 1/1;
+      z-index: 1;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto 1fr;
+      margin-top: 20%;
+      
+    }
+    .slide-content{
+        grid-area: 1/1;
+      z-index: 1;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: auto 1fr;
+      margin-top: 25%;
+      text-align: center;
+    }
+    
+    .slide-nav button {
+        margin-top: -45%;
+        height: 42vh;
+      /* -webkit-appearance: none; */
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+      opacity: 0;
+    }
+    
+    .slide-items > * {
+      position: absolute;
+      top: 0px;
+      opacity: 0;
+      pointer-events: none;
+    }
+    
+    .slide-items > .active {
+      position: relative;
+      opacity: 1;
+      pointer-events: initial;
+    }
+    
+    .slide-thumb {
+      display: flex;
+      grid-column: 1 / 3;
+    }
+    
+    .slide-thumb > span {
+      flex: 1;
+      display: block;
+      height: 3px;
+      background: rgba(0, 0, 0, 0.4);
+      margin: 25px;
+      border-radius: 3px;
+      overflow: hidden;
+    }
+    
+    .slide-thumb > span.active::after {
+      content: '';
+      display: block;
+      height: inherit;
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 3px;
+      transform: translateX(-100%);
+      animation: thumb 5s forwards linear;
+    }
+    
+    .para{
+        background: rgba(35, 54, 108, 1);
+        margin-top: 12%;
+    }
+    .carousel-text {
+      font-family: "Tenor Sans";
+      font-weight: 400;
+      color: #eeedf4;
+      /* background: #47474d; */
+      font-size: 2rem;
+      text-align: center;
+    }
+    @media (max-width: 768px){
+      
+      .carrier-back{
+        padding: 0 4%;
+      }
+      .testimony .text-wrapper-2{
+        font-size: 2rem;
+      }
+      .job-main-inner{
+        padding: 0 4% !important;
+      }
+      .carrier-back .row{
+        margin-top: 2rem !important;
+      }
+      .carrier-back .arrow{
+        margin: 3% 3% 3% 1% !important;
+      }
+      .carrier-back .arrow svg{
+        width: 8%;
+      }
+      .wealth-management.job-main-parent .overlap-group svg{
+        width:50%;
+      }
+      .wealth-management.job-main-parent .text-wrapper-2{
+        font-size: 2rem;
+        margin: 0 !important;
+      }
+      .testimonial-inner{
+        padding: 0 4% !important;
+      }
+      .wealth-management.job-main-parent .overlap .l-mandala img {
+      
+        width: 15%;
+        
+         margin-left: -15px;
+        position: absolute;
+        opacity: 0.5;
+        transform: rotate(270deg);
+       }
+       
+       .wealth-management.job-main-parent .overlap .r-mandala img {
+        opacity: 0.5;
+        transform: rotate(270deg);
+         width: 15%;
+         position: absolute;
+       
+        top: -8%;
+        right: -5%;
+       
+       }
+        .wealth-management.job-main-parent .overlap{
+           padding:15% 0 10% 0  !important;
+        }
+    }
+    
+    @keyframes thumb {
+      to {
+        transform: initial;
+      }
+    }
+     
+      /*  */
+
+      @media only screen and (min-width: 768px) and (max-width: 991px){
+        /* .testimony .text-wrapper {
+          
+          top: 204px;
+          left: 50px;
+        } */
+        .testimony .text-wrapper-2 {
+       
+          font-size: 2.2rem;
+
+        }
+      }

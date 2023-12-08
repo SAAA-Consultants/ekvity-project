@@ -1,0 +1,238 @@
+#hero {
+  width: 100%;
+  background-size: cover;
+  /* position: relative; */
+}
+
+.wealth-management {
+  background-color: #f9f9f9;
+  overflow: hidden;
+  /* background:rgba(184, 38, 38, 0.701) */
+}
+
+.wealth-management .hero {
+  background-color: #f9f9f9;
+  /* background:rgba(184, 38, 38, 0.701)  */
+}
+
+.wealth-management .overlap {
+  position: relative;
+}
+
+.wealth-management .text-wrapper {
+  font-family: "Tenor Sans";
+  font-weight: 400;
+  color: #5c5c5c;
+  font-size: 2rem;
+  text-align: center;
+  width: 90%;
+}
+
+.text-wrapper-2 {
+  font-family: "Tenor Sans";
+  font-weight: 400;
+  color: #22366c;
+  font-size: 3rem;
+  letter-spacing: 0;
+}
+
+.wealth-management .overlap .l-mandala img {
+  width: 12vw;
+  /* position: absolute;
+    bottom: 0; */
+  margin-left: -10px;
+  height: 35vh;
+}
+.wealth-management .overlap .r-mandala img {
+  /* position: absolute;
+    top: 0; */
+  right: -10px;
+  width: 12vw;
+  height: 35vh;
+}
+.image-text-sec {
+    display: flex;
+  }
+@media (max-width: 768px) {
+  .wealth-management .overlap .l-mandala img {
+    width: 20%;
+    height: auto;
+    position: absolute;
+    bottom: -4%;
+    left: -4%;
+    opacity: 0.5;
+    transform: rotate(270deg);
+  }
+
+  .wealth-management .overlap .r-mandala img {
+    width: 20%;
+    position: absolute;
+    top: -14%;
+    right: -4%;
+    height: auto;
+    opacity: 0.5;
+    transform: rotate(270deg);
+  }
+  .overlap-group svg {
+    height: 2rem;
+    width: 4rem;
+  }
+  .overlap-group .text-wrapper-2 {
+    font-size: 2rem;
+  }
+  .wealth-management .text-wrapper {
+    font-size: 1.5rem;
+  }
+  .overlap {
+    margin-top: 0;
+  }
+  .carousel-control-prev-icon {
+    margin-right: 150% !important;
+  }
+  .carousel-control-next-icon {
+    margin-left: 120% !important ;
+  }
+  .east-turn-section .image-text-sec:first-child{
+        order: 1;
+        width: fit-content;
+  }
+  .tablet-img-2{
+    width: fit-content;
+  }
+  .east-turn-section .image-text-sec:nth-child(2){
+        order: 0;
+  }
+}
+/* ------------------------------HERO SECTION END---------------------------------------------------- */
+
+/* ------------------------------sERVICES SECTION START---------------------------------------------------- */
+.carousel-control-next-icon {
+  background-image: none;
+}
+.carousel-control-prv-icon {
+  background-image: none;
+}
+.text-wrapper {
+  font-family: "Tenor Sans";
+  font-weight: 400;
+  color: #5c5c5c;
+  font-size: 2rem;
+  /* text-align: center; */
+  width: 90%;
+}
+
+.pre-face {
+  text-align: justify;
+  font-family: "Tenor Sans";
+  font-weight: 400;
+  color: #5c5c5c;
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+/* ------------------------------SERVICES SECTION END---------------------------------------------------- */
+/* ------------------------------Carousel Starat---------------------------------------------------- */
+.carousel-control-prev {
+  margin-left: -120px;
+}
+
+.carousel-control-next {
+  margin-right: -110px;
+}
+
+.carousel-control-prev img {
+  transform: rotate(180deg);
+}
+.coclave h3 {
+  font-family: "Tenor Sans";
+  font-size: 4rem;
+  font-weight: 400;
+  line-height: 5.3rem;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.coclave p {
+  font-family: Tenor Sans;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 3.5rem;
+  padding-bottom: 10px;
+  letter-spacing: 0em;
+  text-align: justify;
+  color: rgba(80, 80, 80, 1);
+}
+.coclave h6 {
+  font-family: Tenor Sans;
+  font-size: 3rem;
+  padding-bottom: 10px;
+  font-weight: 400;
+  line-height: 3.5rem;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(80, 80, 80, 1);
+}
+.coclave span {
+  font-family: Tenor Sans;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 3.5rem;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.conclave-mandla {
+  width: 300px;
+  transform: rotate(180deg);
+  position: absolute;
+  right: 0;
+  overflow: hidden;
+}
+.coclave-zigzag {
+  position: relative;
+  margin-bottom: 10%;
+  background-color: #f6f6f7;
+  padding-top: 5%;
+}
+
+.row {
+  position: relative;
+}
+
+.bag-img-conclave {
+  position: absolute;
+  bottom: 0;
+  left: -18%;
+  top: 22%;
+  width: 100%;
+  height: 100%;
+  transform-origin: bottom left;
+  z-index: -1;
+}
+
+.col-md-5 {
+  position: relative;
+  z-index: 1;
+}
+@media (min-width: 560px) and (max-width: 762px) {
+  .carousel-control-next-icon img {
+    display: none;
+  }
+  .carousel-control-prev-icon {
+    display: none;
+  }
+  
+  .team-highlights {
+    order: 0;
+  }
+  .tablet-img-2 {
+    order: 1;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 560px) {
+  .carousel-control-next-icon img {
+    display: none;
+  }
+  .carousel-control-prev-icon {
+    display: none;
+  }
+}

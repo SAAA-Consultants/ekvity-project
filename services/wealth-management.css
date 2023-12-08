@@ -1,0 +1,1313 @@
+
+ /* ------------------------------Navbar START---------------------------------------------------- */
+ /* ------------------------------HERO SECTION START---------------------------------------------------- */
+ /* #hero {
+   width: 100%;
+   position: relative;
+   margin-top: 1rem;
+   
+ } */
+
+ /* .wealth-management {
+   background-color: #F9F9F9;
+   overflow: hidden;
+   
+ }
+
+ .faq {
+   background: #f6f6f7;
+   overflow: hidden;
+
+ }
+
+ .wealth-management .hero {
+   background-color: #f9f9f9;
+ }
+
+ .wealth-management .overlap {
+   position: relative;
+ }
+
+ .wealth-management .text-wrapper {
+  font-family: "Tenor Sans";
+  font-weight: 400;
+  color: #5c5c5c;
+  font-size: 1.5rem;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+ }
+
+
+.text-wrapper-2 {
+   font-family: "Tenor Sans";
+   font-weight: 400;
+   color: #22366c;
+   font-size: 34px;
+   letter-spacing: 0;
+   line-height: normal;
+  
+ }
+
+ .wealth-management .overlap .b-mandala img {
+
+   height: 10em;
+   position: absolute;
+   bottom: 0;
+   left: -2rem;
+   opacity: 0.5;
+ }
+
+ .wealth-management .overlap .t-mandala img {
+   position: absolute;
+   top: 0;
+   right: -2rem;
+   height: 10em;
+   opacity: 0.5;
+
+ }
+ @media (max-width: 768px) {
+  .wealth-management .overlap .b-mandala img {
+    height: 6em;   
+  }
+  .wealth-management .overlap .t-mandala img {
+    height: 6em;   
+  }
+ } */
+ html,
+body {
+  color: #062b5b;
+  font-family: "Tenor Sans", sans-serif;
+}
+
+.wealth-faq{
+  background: #F6F6F7;
+  padding:2rem 4rem 4rem 4rem !important;
+}
+.wealth-faq .accordion h2{
+  background: transparent;
+}
+.wealth-faq .accordion-body{
+  background: transparent;
+}
+.wealth-faq .accordion-collapse {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.wealth-faq .accordion-button{
+  padding-left: 0 !important;
+  padding-right: 4rem !important;
+}
+ .original-wealth-section{
+  padding-top: 0%;
+ }
+ .wealth-management.orignal-wealth{
+  overflow: hidden;
+ }
+ .wealth-management.orignal-wealth .overlap {
+  position: relative;
+}
+.wealth-management.orignal-wealth .overlap .b-mandala img {
+ opacity:0.5;
+ position: absolute;
+ bottom: 0;
+ height: 20vh;
+}
+.wealth-management.orignal-wealth .overlap .t-mandala img {
+  opacity:0.5;
+  position: absolute;
+  top: 8%;
+  height: 20vh;
+  right: 0;
+ }
+ .wealth-banner-text{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 6% 0 3% 0;
+ }
+ .wealth-services{
+  padding: 4% 0;
+ }
+ .wealth-services .text-wrapper-2{
+  font-size: 3.2rem !important;
+ }
+ .wealth-services .overlap-group,  .wealth-services .text-wrapper{
+  padding: 0 20%;
+  text-align: center;
+ }
+ .philosopy-services .icon-box .WM-card p{
+  font-size: 1.6rem;
+ }
+ /* ------------------------------HERO SECTION END---------------------------------------------------- */
+
+
+ /* ------------------------------sERVICES SECTION START---------------------------------------------------- */
+ .philosopy-services .icon-box:hover .text-wrapper,
+ .philosopy-services .icon-box:hover .assisting-the-elite, 
+ .philosopy-services .icon-box:hover .assisting-the-elite-1 {
+   color: #fff;
+ }
+ .philosopy-services .icon-box1:hover .text-wrapper,
+ .philosopy-services .icon-box1:hover .assisting-the-elite, 
+ .philosopy-services .icon-box1:hover .assisting-the-elite-1 {
+   color: #fff;
+ }
+
+ .philosopy-services .icon-box .text-wrapper {
+   color: #22366C;
+   font-family: "Tenor Sans";
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 400;
+   /* line-height: normal; */
+   text-align: left;
+ }
+ .philosopy-services .icon-box1 .text-wrapper {
+   color: #22366C;
+   font-family: "Tenor Sans";
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 400;
+   /* line-height: normal; */
+   text-align: left;
+ }
+
+ .assisting-the-elite {
+   /* position: absolute; */
+   /* width: 337px;
+  top: 261px;
+  left: 19px; */
+   font-family: "Tenor Sans";
+   font-weight: 400;
+   color: #515151;
+   font-size: 18px;
+   Line-height:22px;
+   /* line-height: normal; */
+ }
+ .assisting-the-elite-1 {
+   
+   font-family: "Tenor Sans";
+   font-weight: 400;
+   color: #515151;
+   font-size: 18px;
+   Line-height:22px;
+   text-align: justify;
+   
+ }
+
+ .hover-card:hover {
+   box-shadow: 0 0 15px -2px #4444449e;
+   /* transform: translate(-5px); */
+   transition: 0.2s ease-in-out;
+ }
+ .philosopy-services .icon-box {
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  color: #fff;
+  box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  z-index: 1;
+  border: 0.5px solid #22366C;
+  border-left: none;
+  width: 100%;
+}
+.philosopy-services .icon-box1{
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  color: #fff;
+  box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  z-index: 1;
+  border: 0.5px solid #22366C;
+  
+}
+.philosopy-services .icon-box1::before {
+  content: "";
+  position: absolute;
+  background: #cbe0fb;
+  /* Initial background color */
+  right: 100%;
+  /* Move from the right side */
+  left: 0;
+  bottom: 0;
+  top: 0;
+  transition: right 0.3s;
+  /* Animate the right property */
+  z-index: -1;
+  color: #fff;
+}
+
+.philosopy-services .icon-box::before {
+  content: "";
+  position: absolute;
+  background: #cbe0fb;
+  /* Initial background color */
+  right: 100%;
+  /* Move from the right side */
+  left: 0;
+  bottom: 0;
+  top: 0;
+  transition: right 0.3s;
+  /* Animate the right property */
+  z-index: -1;
+  color: #fff;
+}
+.philosopy-services .icon-box1:hover::before {
+  background: rgba(34, 54, 108, 1);
+  /* Hover background color */
+  right: 0;
+  /* Move to the left */
+  border-radius: 0px;
+  /* Adjust border-radius if needed */
+  color: #fff;
+}
+
+.philosopy-services .icon-box:hover::before {
+  background: rgba(34, 54, 108, 1);
+  /* Hover background color */
+  right: 0;
+  /* Move to the left */
+  border-radius: 0px;
+  /* Adjust border-radius if needed */
+  color: #fff;
+}
+
+
+
+.philosopy-services .title {
+  color: #22366C;
+  text-align: center;
+  font-family: Tenor Sans;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* .philosopy-services .icon-box:hover .title {
+  color: #fff;
+} */
+
+.philosopy-servicess .title a {
+  color: #22366C;
+  text-align: center;
+  font-family: Tenor Sans;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.philosopy-services .description {
+  color: #727272;
+  text-align: center;
+  font-family: Tenor Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: justify;
+  padding-top: 20px;
+}
+.philosopy-services .icon-box:hover .title,
+.philosopy-services .icon-box:hover .description {
+  color: #fff;
+}
+
+.philosopy-services .icon-box:hover .icon i {
+  color: #fff;
+}
+.philosopy-services .icon-box1:hover .title,
+.philosopy-services .icon-box1:hover .description {
+  color: #fff;
+}
+
+.philosopy-services .icon-box1:hover .icon i {
+  color: #fff;
+}
+
+.philosopy-services .svg-vector-img {
+  margin-top: -15%;
+  margin-left: -3.5%;
+  justify-content: center;
+}
+
+
+ /* ------------------------------SERVICES SECTION END---------------------------------------------------- */
+
+ /* ------------------------------ACCORDION START---------------------------------------------------- */
+ .accordion {
+  /* --bs-accordion-color: var(--bs-body-color);
+  --bs-accordion-bg: var(--bs-body-bg);
+  --bs-accordion-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out,border-radius 0.15s ease; */
+  /* --bs-accordion-border-color: none; */
+  /* --bs-accordion-border-width: var(--bs-border-width); */
+  /* --bs-accordion-border-radius: var(--bs-border-radius); */
+  /* --bs-accordion-inner-border-radius: calc(var(--bs-border-radius) - (var(--bs-border-width)));
+  --bs-accordion-btn-padding-x: 1.25rem;
+  --bs-accordion-btn-padding-y: 1rem;
+  --bs-accordion-btn-color: var(--bs-body-color);
+  --bs-accordion-btn-bg: var(--bs-accordion-bg);
+  --bs-accordion-btn-icon: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e);
+  --bs-accordion-btn-icon-width: 1.25rem;
+  --bs-accordion-btn-icon-transform: rotate(-180deg);
+  --bs-accordion-btn-icon-transition: transform 0.2s ease-in-out;
+  --bs-accordion-btn-active-icon: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23052c65'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e);
+  --bs-accordion-btn-focus-border-color: rgb(9, 9, 177); */
+  --bs-accordion-btn-focus-box-shadow:none;
+  /* --bs-accordion-body-padding-x: 1.25rem;
+  --bs-accordion-body-padding-y: 1rem;
+  --bs-accordion-active-color: var(--bs-primary-text-emphasis);
+  --bs-accordion-active-bg: ; */
+}
+
+ /* ---Accordian----- */
+ 
+ /* @media screen and (max-width: 1080px){
+  .SSIP .SSIP-btn .SSIP-2 {
+    
+    font-size: 1rem;
+    
+    border-color: #059345;
+    height: 4rem;
+    width: 8rem;
+   
+}
+} */
+ 
+.accordion-button:focus{
+ box-shadow: none;
+ border-left: none;
+ border-bottom: 0;
+}
+.accordion-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0.5rem 1.2rem;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  /* background-color: #fff; */
+  border: 0;
+  border-radius: 0;
+  overflow-anchor: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease
+  }
+  .accordion-button:not(.collapsed){
+  box-shadow: none;
+ }
+  @media screen and (max-width: 768px){
+    .accordion .accordion-item .accordion-button{
+      padding: 0.5rem 0.4rem;
+    }
+  }
+  @media screen and (max-width: 992px) and (min-width: 768px){
+    .accordion .accordion-item .accordion-button{
+      padding: 0.5rem 0.5rem;
+    }
+  }
+  @media screen and (max-width: 1164px) and (min-width: 992px){
+    .accordion .accordion-item .accordion-button{
+      padding: 0.5rem 0.6rem;
+    }
+  }
+  @media screen and (max-width: 1200px) and (min-width: 1164px){
+    .accordion .accordion-item .accordion-button{
+      padding: 0.5rem 0.8rem;
+    }
+  }
+  @media screen and (min-width: 1200px){
+    .accordion .accordion-item .accordion-button{
+      padding: 0.5rem 1rem;
+    }
+  }
+ 
+  
+ .accordion-item {
+   background: #0000000a;
+   border: none;
+ }
+ .accordion-collapse{
+  border-top: 2px solid #22366C;
+  border-width: 2px !important;
+
+ }
+ .accordion-body{
+  margin-left: 1.7%;
+  margin-right: 1.7%;
+  padding: 1rem 0.6rem;
+ }
+ 
+
+ .accordion-item .heading {
+  
+   background: #f6f6f7;
+ }
+ 
+ .accordion-item .accordion-button:not(.collapsed) span{
+  font-size: 1.5rem;
+ }
+ .accordion-item .accordion-button:not(.collapsed) span::before{
+  content: ""; 
+  display: none;
+ }
+ .accordion-item .heading span{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 0 3px;
+     font-size: 2rem;
+     font-weight: 400;
+     color: #22366c;
+     
+     transition: 0.3s;
+     position: relative;
+     background: #ffffff21;
+ }
+ 
+ .accordion-item .heading span:before {
+     content: "";
+     position: absolute;
+     width: 100%;
+     height: 1px;
+     bottom: -10px;
+     left: 0;
+     background-color: #22366c;
+     visibility: hidden;
+     width: 0px;
+     transition: all 0.3s ease-in-out 0s;
+ }
+
+ .accordion-item .heading>span:hover:before,
+ .heading:hover>.span:before {
+     visibility: visible;
+     width: 100%;
+ }
+.samvat-table{
+  overflow: scroll;
+}
+.table-container.samvat-table .table th, .table-container.samvat-table .table td{
+  padding: 5px 25px;
+  font-size: 2rem;
+  background-color: #fff;
+  border: 1px solid #0f0f0f;
+}
+.table-container.samvat-table .table th:first-child, .table-container.samvat-table .table tr td:first-child{
+  /* position: sticky; */
+  /* left: 0;
+  z-index: 999; */
+}
+
+
+
+/* .table-container.samvat-table .table th:nth-child(2){
+  left: 5%;
+} */
+ /* ----------------------FIRST ACCORDION START------------------------------------------ */
+ .circle-container {
+   width: 20rem;
+   height: 10rem;
+   /* as the half of the width */
+   /* background-color: gold; */
+   border-top-left-radius: 11rem;
+   /* 100px of height + 10px of border */
+   border-top-right-radius: 11rem;
+   /* 100px of height + 10px of border */
+   border: 0.3rem solid;
+   border-bottom: 0;
+   border-color: #22366c;
+   position: relative;
+ }
+ .accordion-content {
+  text-align: justify;
+    font-family: "Tenor Sans";
+    font-weight: 400;
+
+    font-size: 18px;
+    Line-height: 22px;
+
+
+    letter-spacing: -0.05em;
+
+ }
+
+
+ .number {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   /* transform-origin: 0 100%; */
+   transform: translate(-50%, -50%);
+   /* font-size: 24px; */
+   transition: transform 0.5s ease-in-out;
+   cursor: pointer;
+
+   font-size: 6rem;
+   color: #059345;
+   text-align: center;
+   width: 100%;
+   font-family: "Tenor Sans";
+   font-weight: 400;
+   transform-origin: center bottom;
+
+
+ }
+
+ .rotate {
+   animation: rotateNumber 0.5s linear infinite;
+ }
+
+ @keyframes rotateNumber {
+   0% {
+     transform: translate(-50%, -50%) rotate(0deg);
+
+   }
+
+   25% {
+     transform: translate(-50%, -50%) rotate(-90deg);
+     display: none;
+
+   }
+
+   50% {
+     transform: translate(-50%, -50%) rotate(-180deg);
+     display: none;
+
+   }
+
+   75% {
+     transform: translate(-50%, -50%) rotate(-270deg);
+     display: none;
+
+   }
+
+   100% {
+     transform: translate(-50%, -50%) rotate(-360deg);
+   }
+ }
+ /* .accordion-button:not(.collapsed), .accordion-item .accordion-button span{
+    font-size: 1rem;
+ } */
+
+ /* ----------------------FIRST ACCORDION START------------------------------------------ */
+ /* ----------------------SECOND ACCORDION START------------------------------------------ */
+
+ /* .frame .OP {
+  position: relative;
+  width: 1422px;
+  height: 380px;
+} */
+
+ /* .frame .card {
+  position: absolute;
+  width: 25rem;
+  height: 10rem;
+  
+} */
+
+ .frame .div-wrapper {
+   /* position: relative;
+width: 25rem;
+height: 154px; */
+
+   background-color: #ffffff;
+   border-radius: 8px;
+   border: 1px solid;
+   border-color: #059345;
+ }
+
+ .SSIP .SSIP-btn .SSIP-1 {
+
+   /* left: 114px; */
+   font-family: "Tenor Sans";
+   font-weight: 400;
+   color: #22366c;
+   font-size: 2rem;
+   align-items: center;
+   text-align: center;
+   border-color: #22366c;
+   height: 8rem;
+   width: 25rem;
+   background: #fff;
+   /* background: #22366c; */
+   /* white-space: nowrap; */
+ }
+
+ .SSIP .SSIP-btn .SSIP-2 {
+
+   /* left: 114px; */
+   font-family: "Tenor Sans" ;
+   font-weight: 400;
+   color: #059345;
+   font-size: 2rem;
+   align-items: center;
+   text-align: center;
+   border-color: #059345;
+   height: 8rem;
+   width: 25rem;
+   background: #fff;
+   /* background: #22366c; */
+   /* white-space: nowrap; */
+ }
+
+ .SSIP .SSIP-btn button:hover {
+  box-shadow: 0 0 10px 10px #585a591b;
+   /* transform: translate(-5px); */
+   transition: 0.2s ease-in-out;
+   border: none;
+ }
+
+
+
+ /* ----------------------SECOND ACCORDION END------------------------------------------ */
+ /* ----------------------THIRD ACCORDION START------------------------------------------ */
+
+/* ----------Table Start----------- */
+/* .table-container {
+  overflow-x: auto;
+  position: relative;
+}
+
+.table-container .table {
+  width: 100%;
+  table-layout: fixed;
+} */
+
+.table-container .table th, .table-container .table td {
+  color: #22366C;
+  font-family: "Tenor Sans";
+  font-size: 1rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+/* .table-container .table thead th:nth-child(1),
+.table-container .table thead th:nth-child(2),
+.table-container .table thead th:nth-child(3),
+.table-container .table tbody td:nth-child(1),
+.table-container .table tbody td:nth-child(2), 
+.table-container .table tbody td:nth-child(3) {
+  position: sticky;
+  left: 0;
+  
+  background-color: white;
+  
+} */
+
+/* .table-container .table thead th:nth-child(2),
+.table-container .table tbody td:nth-child(2){
+  left: 8.9%;
+} */
+/* .table-container .table thead th:nth-child(3),
+.table-container .table tbody td:nth-child(3) {
+  left: 12%; 
+  background-color: white;
+ 
+} */
+
+/* ----------Table end----------- */
+ /* ----------------------THIRD ACCORDION END------------------------------------------ */
+
+
+ /* ------------------------------ACCORDION END---------------------------------------------------- */
+
+ /* ------------------------Table-------------------------------------------------- */
+ /* .table-container .table th,
+ .table-container .table td {
+   color: #22366C;
+   font-family: Tenor Sans;
+   font-size: 24px;
+   font-weight: 300;
+   
+ }
+ .table{
+  overflow-x: scroll;
+ } */
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+ /* .table-container {
+  overflow-x: scroll;
+}
+
+.table-container .table {
+  width: 100rem;
+}
+
+.table-container .table th, .table-container .table td {
+  color: #22366C;
+  font-family: Tenor Sans;
+  font-size: 24px;
+  font-weight: 300;
+  
+}
+
+.table-container .table thead th:nth-child(-n+2) {
+  position: sticky;
+  left: 0;
+  z-index: 2;
+  background-color: white;
+}
+
+.table-container .table tbody td:nth-child(-n+2) {
+  position: sticky;
+  left: 0;
+  background-color: white;
+  box-shadow: 5px 0 5px -5px #333;
+}
+.table-container .table thead th:nth-child(-n+3) {
+  position: sticky;
+  left: 0;
+  z-index: 2;
+  background-color: white;
+}
+
+.table-container .table tbody td:nth-child(-n+3) {
+  position: sticky;
+  left: 0;
+  background-color: white;
+  box-shadow: 5px 0 5px -5px #333;
+} */
+
+/* --------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------Second Accordion Table---------------------------------------------- */
+.sub-column {
+  border-right: 1px solid #ccc;
+  margin: -9px;
+  padding: 8px;
+}
+.sub-column:last-child {
+  border-right: none;
+}
+.no-border {
+  border: none;
+}
+.table2 th{
+  font-family: "Tenor Sans";
+font-size: 26px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+color: #22366C;
+
+
+}
+.sub-head td{
+  font-family: "Tenor Sans";
+font-size: 17px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: -0.05em;
+text-align: left;
+color: #22366C;
+
+}
+.total-1 td{
+  color: #22366C;
+}
+.overlap-group .text-wrapper-2 {
+  font-family: "Tenor Sans";
+  font-weight: 400;
+  color: #22366c;
+  font-size:2rem;
+  letter-spacing: 0;
+  line-height: normal;
+  
+}
+.orignal-wealth .overlap-group .text-wrapper-2 {
+  font-family: "Tenor Sans";
+  font-weight: 400;
+  color: #22366c;
+  font-size:3.2rem;
+  letter-spacing: 0;
+  line-height: normal;
+  
+}
+.wealth-management.orignal-wealth .text-wrapper {
+  font-family: "Tenor Sans";
+  font-weight: 400;
+  color: #5c5c5c;
+  font-size: 2rem;
+  line-height: 1.5;
+  text-align: center;
+  width: 100%;
+}
+.wealth-service .overlap-group, .wealth-service .text-wrapper{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.custom-table td {
+  width: 50%;
+  /* Adjust the width as needed, e.g., 50% */
+}
+.philosopy-services .WM-card .icon{
+  text-align: left;
+}
+.assisting-the-elite{
+  text-align: left;
+}
+ .assisting-the-elite, .assisting-the-elite-1, .philosopy-services .icon-box .text-wrapper{
+  padding-left: 0;
+  padding-right: 0;
+}
+.ssip-parent .SSIP-btn{
+  margin: 0 4%;
+}
+.table-border {
+  border-right: 1px solid #D2D2D2;
+}
+
+.table-outer-border{
+  border-radius: 10px;
+  border: 1px solid #323745da;
+  background: #FFF;
+}
+.table3{
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+
+#footer {
+  padding-top: 20%;
+  padding: 0 0 0px 0;
+  color: #444444;
+  font-size: 1.4rem;
+  background: rgba(231, 231, 231, 1);
+}
+#footer .footer-top .foot-heading {
+  color: rgba(34, 54, 108, 1);
+}
+#footer .footer-top .foot-btn {
+  border: solid 2px rgba(29, 29, 29, 1);
+  width: 159px;
+  background-color: transparent;
+  height: 40px;
+  font-size: 2rem;
+  border-radius: 0px;
+}
+#footer .footer-top .foot-btn:hover{
+  /* box-shadow: 0px 5px 5px 5px; */
+  background-color: #1D1D1D;
+  color: #fff;
+  /* transform: translate(-5px); */
+  transition: 0.5s ease-in-out;
+  border: none;
+}
+
+#footer .footer-top {
+  background-image: url("assets/img/Warli.png"); /* Replace 'your-image.jpg' with your image file path */
+  background-size: cover; /* Adjust as needed to cover the container */
+  background-repeat: no-repeat; /* Prevent image repetition */
+}
+#footer .footer-top .foot-heading h2 {
+  font-size: 3rem;
+}
+#footer .footer-top .foot-heading span {
+  color: rgba(5, 147, 69, 1);
+}
+#footer .footer-newsletter {
+  padding: 50px 0;
+  background: #f1f6fe;
+  text-align: center;
+  font-size: 15px;
+}
+
+#footer .footer-newsletter h4 {
+  font-size: 2.4rem;
+  margin: 0 0 20px 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 600;
+}
+
+#footer .footer-newsletter form {
+  margin-top: 30px;
+  background: #fff;
+  padding: 6px 10px;
+  position: relative;
+  border-radius: 4px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.06);
+  text-align: left;
+}
+
+#footer .footer-newsletter form input[type="email"] {
+  border: 0;
+  padding: 4px 8px;
+  width: calc(100% - 100px);
+}
+
+#footer .footer-newsletter form input[type="submit"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border: 0;
+  background: none;
+  font-size: 16px;
+  padding: 0 20px;
+  background: #106eea;
+  color: #fff;
+  transition: 0.3s;
+  border-radius: 0 4px 4px 0;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+#footer .footer-newsletter form input[type="submit"]:hover {
+  background: #0d58ba;
+}
+
+#footer .footer-top {
+  padding: 60px 0 30px 0;
+}
+
+#footer .footer-top .footer-contact {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-contact h4 {
+  margin: 0 0 15px 0;
+  padding: 2px 0 2px 0;
+  color: rgba(34, 54, 108, 1);
+  position: relative;
+  padding-bottom: 12px;
+  font-family: Tenor Sans;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+#footer .footer-top .footer-contact h3 span {
+  color: rgba(5, 147, 69, 1);
+}
+
+#footer .footer-top .footer-contact p {
+  font-size: 1.5rem;
+  line-height: 24px;
+  font-family: Tenor Sans;
+  margin-bottom: 0;
+ font-weight: 400;
+  color: #1D1D1D;
+  font-weight: 400;
+}
+
+#footer .footer-top h4 {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #444444;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+#footer .footer-top .footer-links {
+  margin-bottom: 30px;
+}
+#footer .footer-top .footer-links h4 {
+  margin: 0 0 15px 0;
+  padding: 2px 0 2px 0;
+  color: rgba(34, 54, 108, 1);
+  position: relative;
+  padding-bottom: 12px;
+  font-family: Tenor Sans;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+#footer .footer-top .footer-links p {
+  font-size: 1.5rem;
+  line-height: 24px;
+  font-family: Tenor Sans;
+  margin-bottom: 0;
+ font-weight: 400;
+  color: #1D1D1D;
+  font-weight: 400;
+}
+
+#footer .footer-top .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-family: "Tenor Sans";
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(29, 29, 29, 1);
+}
+
+#footer .footer-top .footer-links ul i {
+  padding-right: 2px;
+  color: rgba(171, 168, 169, 1);
+  font-size: 1.8rem;
+  line-height: 1;
+}
+
+#footer .footer-top .footer-links ul li {
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+}
+
+#footer .footer-top .footer-links ul li:first-child {
+  padding-top: 0;
+}
+
+#footer .footer-top .footer-links ul a {
+  color: #1D1D1D;
+  transition: 0.3s;
+  display: inline-block;
+  line-height: 1.8;
+  font-weight: 400;
+}
+/* hr {
+  border: 1px solid rgba(29, 29, 29, 1);
+
+  color: rgba(29, 29, 29, 1);
+} */
+#footer .footer-top .footer-links ul a:hover {
+  text-decoration: none;
+}
+
+#footer .footer-top .social-links a {
+  font-size: 2rem;
+  color: rgba(171, 168, 169, 1);
+  text-align: center;
+  padding-left: 1%;
+}
+#footer .footer-top .social-links img{
+  height: 20px;
+}
+#footer .footer-top .social-links img:hover{
+ color: #fff;
+}
+
+#footer .footer-top .social-links a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+#footer .footer-top .social-links h3{
+  color: rgba(34, 54, 108, 1);
+  font-weight: 400;
+  font-family: Tenor Sans;
+  font-size: 2rem;
+  text-align: left;
+}
+.social-links-h3{
+  color: rgba(34, 54, 108, 1);
+  font-weight: 400;
+  font-family: Tenor Sans;
+  font-size: 2rem;
+  text-align: left;
+}
+
+#footer .copyright {
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+
+#footer .copyright span {
+  color: rgba(255, 255, 255, 1);
+}
+
+#footer .credits {
+  float: right;
+  text-align: center;
+  font-size: 1.3rem;
+  color: #444444;
+}
+.ssip-large-table{
+  border: 1px solid #062b5b;
+  border-radius: 25px;
+}
+.ssip-large-table table{
+  border: 1px solid #062b5b;
+  border-radius: 25px;
+  border-collapse: collapse;
+  border-style: hidden;
+  margin-bottom: 0;
+  padding: 0 2%;
+}
+.ssip-large-table table tr th, .ssip-large-table table tr td{
+  padding: 1% 2%;
+  text-align: center;
+  color:#062b5b;
+}
+.large-cap-bottom-table{
+  margin: 0 20%;
+}
+.modal-content button{
+  float: right;
+}
+.philosopy-services .row{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+@media (max-width: 980px)
+{
+  #footer .footer-top .footer-links ul a
+  {
+    font-size: 1.8rem;
+  }
+  #footer .footer-top .footer-contact h4
+  {
+    font-size: 1.8rem;
+    line-height:25px;
+  }
+  #footer .footer-top .footer-links h4
+  {
+    font-size: 1.8rem;
+    
+    line-height:25px;
+  }
+
+}
+@media (max-width: 768px) {
+  .table-container.samvat-table .table th, .table-container.samvat-table .table td{
+    font-size: 1rem;
+  }
+  .assisting-the-elite{
+    text-align: justify;
+    font-size: 1.5rem;
+  }
+  .philosopy-services.samvat-plan-blocks .row{
+    margin-left: 1% !important;
+    margin-right: 1% !important;
+  }
+  .wealth-faq .accordion-collapse{
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .large-cap-bottom-table{
+    margin: 2% 0%;
+  }
+  .ssip-large-table {
+    width: fit-content;
+    padding: 2%;
+  }
+  .ssip-large-table table tr th{
+    font-size: 1.5rem;
+  }
+   .ssip-large-table table tr td{
+    font-size: 1.3rem;
+   }
+  .table2 td{
+    font-size: 1rem;
+  }
+  .table2 th{
+    font-size: 1.5rem;
+  }
+ .row.no-gutters .sub-column:first-child{
+  padding: 1% 15% 1% 1%;
+ }
+  .philosopy-services .icon-box .WM-card p{
+    font-size: 1.5rem;
+  }
+  .philosopy-services .icon-box .WM-card p:first-child{
+    margin-bottom: 0;
+  }
+  .ssip-parent button{
+    margin-bottom: 5%;
+  }
+  .ssip-parent{
+    flex-direction: column;
+  }
+  .cap-btn-titles{
+    font-size: 2rem !important;
+    text-align: justify;
+  }
+  .rotating-text{
+    font-size: 1.5rem;
+    text-align: justify;
+  }
+  .accordion-content{
+    margin-left: 0 !important;
+  }
+  .wealth-faq{
+    padding: 2rem 0rem 3rem 0rem !important;
+  }
+  .accordion-body .card .card-body .icon{
+    margin-bottom: 2%;
+  }
+  .accordion-body .card .card-body{
+    flex-direction: column;
+  }
+  .wealth-services .text-wrapper{
+    text-align: justify;
+    padding: 0 8%;
+  }
+  .philosopy-services .WM-card img{
+    margin-right: auto;
+  }
+  .philosopy-services .row{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+
+  }
+  .wealth-services .text-wrapper-2{
+    font-size: 2rem !important;
+  }
+  .wealth-banner-text{
+    padding: 4% 0;
+    margin-top: 10%;
+  }
+  .wealth-management.orignal-wealth .overlap .b-mandala img {
+    opacity: 0.5;
+  
+    height: 10vh;
+    left: -12%;
+  }
+  .wealth-management.orignal-wealth .overlap .t-mandala img {
+    opacity: 0.5;
+  top: 8%;
+    height: 10vh;
+    right: -12%;
+  }
+  .orignal-wealth .overlap-group .text-wrapper-2{
+    font-size: 2rem;
+  }
+  .overlap-group svg{
+    height: 2rem;
+    width: 4rem;
+  }
+  .wealth-management.orignal-wealth .text-wrapper{
+    font-size: 1.5rem;
+  }
+  #footer .footer-top .footer-links{
+    margin-bottom: 10px !important;
+  }
+  #footer .footer-top{
+    padding-top: 30px !important;
+    padding-left: 4% !important;
+  }
+  #footer .footer-top .foot-heading h2{
+    font-size: 2.2rem !important;
+    margin-bottom: 3% !important;
+  }
+  #footer .copyright,
+  #footer .credits {
+    float: none;
+    text-align: center;
+    padding: 2px 0;
+  }
+}
+/* -------------------------------------------------------Second Accordion Table---------------------------------------------- */
+/* -------------------------------------------------------FOOTER---------------------------------------------- */
+  /*--------------------------------------------------------------

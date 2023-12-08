@@ -1,0 +1,257 @@
+body {
+    color: #062b5b;
+    font-family: "Tenor Sans", sans-serif;
+    font-size: 1.6rem;
+    
+    
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+
+  
+  a {
+    color: #22366c;
+    text-decoration: none;
+  }
+
+
+
+/* offcanvas section */
+/* Style for offcanvas background */
+.offcanvas-end {
+    background-color: rgba(35, 54, 108, 1); /* Change to your preferred blue color */
+  }
+  
+  /* Style for offcanvas menu */
+  .offcanvas-body {
+    text-align: center;
+  }
+  
+  .offcan-menus {
+    margin-top: 15rem; /* Adjust the top margin as needed */
+    display: flex;
+    flex-direction: column; /* Display the items in a column layout */
+    align-items: center; /* Center the items horizontally */
+  }
+  
+  /* Center the text inside the offcanvas menu */
+  .offcan-menus .offcan-menu-item {
+   padding: 1rem;
+  letter-spacing: 0.3rem;
+   font-size: 2.5rem;
+   color: rgba(209, 155, 67, 1);
+   text-decoration: none; /* Remove default underline */
+   transition: text-decoration 5s ease-in-out; /* Set the transition duration and timing function */
+  }
+  .offcan-menus .offcan-menu-item:hover {
+    text-decoration: underline; /* Underline when hovering */
+    color: #fff;
+  }
+  .offcan-menus.btn-close{
+    color: #fff;
+  }
+  
+  
+  /* end of offcanvas section */
+  
+  /* navbar section */
+  .navbar ul li {
+    color: #1d1d1d;
+    padding: 15px;
+    font-size: 1.6rem;
+    font-weight: 400;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: #050505;
+  }
+  
+  .nav {
+    background: rgba(35, 54, 108, 1);
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6rem;
+    transition: all 0.5s;
+    color: #fff;
+    position: sticky;
+    z-index: 1000;
+    /* box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1); */
+    
+  }
+  @media (max-width: 768px)
+  {
+    .nav
+    {
+      font-size: 1rem;
+  
+    }
+  }
+  .nav li a {
+    color: #fff;
+    justify-content: center;
+    padding: 12px;
+  }
+  /* end of navbar section */
+ 
+
+
+  /* hero section */
+.hero {
+    /* position: absolute; */
+    background-color: rgba(246, 246, 247, 1);
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  
+    
+  }
+  /* @media (max-width: 768px) {
+    .hero {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    .hero img {
+      width: 400px;
+      padding-top: 40px;
+    }
+    .hero .content h1 {
+      font-size: 45px;
+      line-height: 1.5em;
+     
+    }
+   
+    .hero .vect
+     {
+      display: none;
+     }
+  } */
+  
+  .hero .vect {
+  
+    position: relative;
+    width: 100%;
+    max-width: 350px;
+    bottom: 0;
+    left: 13%;
+  }
+  /* .hero .container{
+    margin-top: 3%;
+  } */
+  
+  .hero h1 {
+    color: #22366c;
+    line-height: 1.2em;
+    margin-top: 20px;
+    font-family: "Tenor Sans";
+    font-size: 4.5rem;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .hero-section{
+    padding-top: 10%;
+  
+  }
+  .hero h1 span {
+    color: rgba(5, 147, 69, 1);
+  }
+  .hero .btn-get-started {
+    font-family: "Tenor Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    letter-spacing: 0;
+    line-height: normal;
+    text-decoration: none;
+    background: rgba(35, 54, 108, 1);
+    padding: 10px 28px;
+    border-radius: 0px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+  }
+  /* @media (min-width: 768px) and (max-width: 992px) {
+  
+    .hero{
+      position: relative;
+      background-color: rgba(246, 246, 247, 1);
+      align-items: center;
+      width: 100%;
+      height: 45vh;
+  }
+    
+    .hero .vect {
+      position: relative;
+      width: 100%;
+      max-width: 350px;
+      bottom: 0;
+      left: 17%;
+    }
+    
+    
+  } */
+  /* @media (min-width: 1300px) and (max-width: 1859px) {
+    .hero {
+      height: 85vh; 
+    }
+    
+    .hero h1{
+      font-size: 5rem;
+    }
+    .hero .vect {
+      position: absolute;
+      width: 100%;
+      max-width: 450px;
+      bottom: 0;
+      left: 16%;
+    }
+  } */
+  /* @media (min-width: 1860px) and (max-width: 2200px) {
+    .hero {
+      height: 80vh; 
+    }
+    .hero h1{
+      font-size: 5rem;
+    }
+    .hero-section{
+      padding-top: 30rem;
+    }
+    .hero-section .content{
+      margin-right: 5%;
+    }
+    .hero-section img{
+      margin-left: 5rem;
+    }
+    .hero .vect {
+      position: absolute;
+      width: 100%;
+      max-width: 450px;
+      bottom: 0;
+      left: 20%;
+    }
+    
+    
+  } */
+  /* @media (max-width: 980px) 
+  {
+    .hero h1
+    {
+      font-size: 2.5rem;
+    }
+    .hero .btn-get-started
+    {
+      font-size: 1rem;
+      padding: 10px 15px;
+  
+    }
+    .hero .vect
+    {
+      width: 100px;
+    }
+    
+  } */
+  
+    

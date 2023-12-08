@@ -1,0 +1,366 @@
+
+#hero {
+  width: 100%;
+  background-size: cover;
+  /* position: relative; */
+  margin-top: 1rem;
+
+}
+
+.wealth-management {
+  background-color: #F9F9F9;
+  overflow: hidden;
+  /* background:rgba(184, 38, 38, 0.701) */
+}
+
+.wealth-management .hero {
+  background-color: #f9f9f9;
+  /* background:rgba(184, 38, 38, 0.701)  */
+}
+
+.wealth-management .overlap {
+  position: relative;
+}
+
+.wealth-management .text-wrapper {
+  font-family: "Tenor Sans";
+  font-weight: 400;
+  color: #5c5c5c;
+  font-size: 2.4rem;
+  text-align: center;
+  /* width: 100%; */
+
+}
+
+
+.text-wrapper-2 {
+  font-family: "Tenor Sans";
+  font-weight: 400;
+  color: #22366c;
+  font-size: 3.2rem;
+  letter-spacing: 0;
+
+
+}
+
+.wealth-management .overlap .l-mandala img {
+
+  width: 35vw;
+
+  margin-left: -38%;
+  height: 35vh;
+  opacity: 0.5;
+
+}
+
+.wealth-management .overlap .r-mandala img {
+
+  margin-left: 38%;
+  height: 35vh;
+  width: 35vw;
+  opacity: 0.5;
+}
+
+
+  .singl-blog{
+    background-color: rgba(249, 249, 249, 1);
+  }
+  .singl-blog h1
+  {
+    display: inline-block;
+    font-size: 3.5rem;
+    
+   
+  }
+  .blog-images{
+    justify-content: center;
+    align-items: center;
+   
+    
+  }
+  .single-blog{
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+  .single-blog .text-wrapper-2{
+    color: #22366C;
+font-family: "Tenor Sans";
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  }
+  .blog-discription span
+  {
+color: #404040;
+font-family:" Tenor Sans";
+font-size: 2rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+
+
+  }
+  .blog-discription  h3
+  {
+color: #D19B43;
+padding-top: 10px;
+padding-bottom: 10px;
+font-family: "Tenor Sans";
+text-align: justify;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+  }
+  
+  .blog-discription  h3 .arrow{
+    position: relative;
+    float: right;
+    
+  }
+  .blog-discription  p
+  {
+color: #505050;
+text-align: justify;
+font-family: "Tenor Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-bottom: 20px;
+
+  }
+  .all-blogs{
+    background-color: rgb(238, 238, 238);
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  #gallery{
+    background-color: rgb(238, 238, 238);
+    /* padding: 5rem; */
+    padding: 0 3%;
+  }
+  #gallery .card{
+    background-color: rgb(238, 238, 238);
+    border: none;
+    
+  }
+  /* #gallery .card-1{
+    margin-left: 30px;
+  } */
+ .all-blogs .text-wrapper-2
+ {
+color: #22366C;
+font-family: "Tenor Sans";
+font-size: 3rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+ }
+ .card-body-1 span
+  {
+color: #404040;
+font-family:" Tenor Sans";
+font-size: 2rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+
+  }
+  .card-body-1  h3
+  {
+color: #D19B43;
+padding-top: 10px;
+padding-bottom: 10px;
+font-family: "Tenor Sans";
+font-size: 3rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+  }
+  .card-body-1  h3 .arrow{
+    float: right;
+  }
+  .card-body-1  p
+  {
+color: #505050;
+text-align: justify;
+font-family: "Tenor Sans";
+font-size: 2rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-bottom: 20px;
+
+  }
+  [data-pagination],
+[data-pagination] *,
+[data-pagination] *:before,
+[data-pagination] *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-kerning: auto;
+  background-color: rgb(238, 238, 238);
+}
+[data-pagination] {
+  font-size: 8pt;
+  line-height: 1;
+  font-weight: 400;
+  -webkit-text-size-adjust: 100%;
+  margin: 1em auto;
+  text-align: center;
+  transition: font-size .2s ease-in-out;
+}
+[data-pagination] ul {
+  list-style-type: none;
+  display: inline;
+  font-size: 100%;
+  margin: 0;
+  padding: .5em;
+}
+[data-pagination] ul li {
+  display: inline-block;
+  font-size: 100%;
+  width: auto;
+  border-radius: 3px;
+}
+[data-pagination] > a {
+  font-size: 140%;
+}
+[data-pagination] a {
+  color: #777;
+  font-size: 100%;
+  padding: .5em;
+}
+[data-pagination] a:focus,
+[data-pagination] a:hover {
+  color: rgba(209, 155, 67, 1);
+  text-decoration: underline;
+  text-decoration-thickness: 0.2em; /* Adjust the thickness as needed */
+  
+
+}
+[data-pagination] li.current {
+  background: rgba(0,0,0,.1)
+}
+/* Disabled & Hidden Styles */
+[data-pagination] .disabled,
+[data-pagination] [hidden],
+[data-pagination] [disabled] {
+  opacity: .5;
+  pointer-events: none;
+}
+@media (min-width: 350px) {
+  [data-pagination] {
+    font-size: 10pt;
+  }
+}
+@media (min-width: 500px) {
+  [data-pagination] {
+    font-size: 12pt;
+  }
+}
+@media (min-width: 700px) {
+  [data-pagination] {
+    font-size: 14pt;
+  }
+}
+@media (max-width: 384px){}
+.overlap-group {
+    margin-top: 2rem;
+}
+@media (max-width: 768px) {
+  #gallery .row{
+    margin-left:4% !important;
+    margin-right:4% !important;
+
+  }
+  #gallery .card-body-1 span{
+    font-size: 1.5rem;
+  }
+  #gallery .card-body-1 span.arrow svg{
+  width: 0%;
+  }
+  #gallery .card-body-1 h3{
+    font-size: 2rem;
+  }
+  #gallery .card-body-1 p{
+    font-size: 1.6rem;
+  }
+  #gallery .card{
+    padding: 0 !important;
+  }
+  .blog-discription p{
+    font-size: 1.6rem;
+  }
+  .blog-discription span{
+    font-size: 1.5rem;
+  }
+  .blog-discription h3{
+    font-size: 2rem;
+  }
+  .wealth-management.blog-main-banner .overlap-group .text-wrapper-2 {
+    margin: 0 !important;
+    width: 60%;
+  }
+  .wealth-management.blog-main-banner .text-wrapper {
+    font-size: 1.5rem;
+    padding: 0 9%;
+    line-height: normal;
+  }
+  .wealth-management.blog-main-banner .overlap{
+    padding-bottom: 8%;
+  }
+  .wealth-management.blog-main-banner .overlap .l-mandala img {
+
+      
+      height: 10em;
+      position: absolute;
+      bottom: -52px;
+      left: 30px;
+      opacity: 0.5;
+      opacity: 0.5;
+      transform: rotate(270deg);
+
+  }
+
+  .wealth-management.blog-main-banner .overlap .r-mandala img {
+      position: absolute;
+      top: -18%;
+      right: -18%;
+      height: 10em;
+      opacity: 0.5;
+      transform: rotate(270deg);
+
+  }
+  .overlap-group svg{
+      height: 2rem;
+      width: 4rem;
+  }
+  .overlap-group .text-wrapper-2{
+      font-size: 2rem;
+  }
+  .wealth-management .text-wrapper{
+      font-size: 1.8rem;
+  }
+  .overlap{
+      margin-top: 0;
+  }
+  
+}
+@media (min-width: 900px) {
+  [data-pagination] {
+    font-size: 16pt;
+  }
+}
+  

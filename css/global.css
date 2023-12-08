@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  .popup-overlay {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    inset: 0;
+  }
+  
+  :root {
+    /* fonts */
+    --font-tenor-sans: "Tenor Sans";
+    --font-poppins: Poppins;
+    --font-eudoxus-sans: "Eudoxus Sans";
+  
+    /* font sizes */
+    --font-size-3xl: 22px;
+    --font-size-lg: 18px;
+    --font-size-41xl: 60px;
+    --font-size-5xl: 24px;
+    --font-size-26xl: 45px;
+    --font-size-11xl: 30px;
+    --font-size-xl: 20px;
+    --font-size-9xl: 28px;
+    --font-size-sm: 14px;
+    --font-size-21xl: 40px;
+  
+    /* Colors */
+    --color-whitesmoke-100: #f9f9f9;
+    --color-whitesmoke-200: #f7f7f7;
+    --color-whitesmoke-300: #f6f6f7;
+    --color-gray: #1d1d1d;
+    --color-white: #fff;
+    --color-darkslateblue-100: #22366c;
+    --color-forestgreen: #059345;
+    --color-dimgray-100: #727272;
+    --color-dimgray-200: #5c5c5c;
+    --color-peru: #d19b43;
+  
+    /* Gaps */
+    --gap-21xl: 40px;
+    --gap-3xs: 10px;
+  
+    /* Border radiuses */
+    --br-5xl-5: 24.5px;
+    --br-5xs: 8px;
+    --br-9xs: 4px;
+  }
+  

@@ -1,0 +1,193 @@
+.coclave {
+  margin-right: 1.5rem;
+}
+.east-turn-section {
+  padding-top: 2%;
+  padding-bottom: 5%;
+  background: #f6f6f7;
+}
+.coclave.team-highlights {
+  padding-left: 4%;
+}
+.last-conclave-row {
+  margin-bottom: 3%;
+}
+@media only screen and (max-width: 320px) {
+}
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .pre-face {
+    font-size: 1.5rem;
+  }
+  .conclave-inner {
+    margin-top: 0 !important;
+    padding: 6% 0;
+  }
+  .conclave-parent {
+    margin-top: 4%;
+  }
+  .wealth-management .text-wrapper-2 {
+    font-size: 2rem;
+  }
+  .wealth-management .overlap {
+    padding-bottom: 8%;
+  }
+  .wealth-management {
+    padding: 0 0 8% 0;
+  }
+  .conclave-mandla img {
+    width: 60%;
+  }
+  .conclave-mandla {
+    width: 100%;
+  }
+  .coclave h3 {
+    padding-top: 3%;
+    line-height: 3.5rem;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .coclave-zigzag {
+    margin-bottom: 0;
+    padding-top: 0;
+  }
+  .coclave p {
+    word-spacing: 1;
+    text-align: justify;
+    font-size: 1.5rem;
+  }
+  .carousel-control-prev {
+    margin-left: 0;
+  }
+  .carousel-control-next {
+    margin-right: 0;
+  }
+  .coclave {
+    margin-right: 0;
+  }
+  .east-turn-section {
+    padding: 0 3%;
+  }
+  .coclave .bottom-conclave-title {
+    font-size: 2rem;
+  }
+  .conclave-east-turn span {
+    font-size: 1.5rem;
+  }
+  .team-highlights span {
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+  }
+  .coclave.conclave-east-turn {
+    margin-bottom: 7%;
+  }
+  .coclave h6 {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  .end-conclave {
+    margin-bottom: 7%;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 769px) {
+  .carousel-control-prev {
+    margin-left: 0px;
+  }
+  .carousel-control-next {
+    margin-right: 0px;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  .coclave-zigzag {
+    margin-bottom: 0;
+  }
+  .wealth-management .text-wrapper-2 {
+    font-size: 2.5rem;
+  }
+  .wealth-management {
+    padding: 0 0 7% 0;
+  }
+  .conclave-mandla img {
+    width: 60%;
+  }
+  .conclave-mandla {
+    width: 100%;
+  }
+  .coclave h3 {
+    line-height: 3.5rem;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .coclave {
+    margin-right: 0;
+    margin-top: 4%;
+    margin-bottom: 3%;
+  }
+  .east-turn-section {
+    padding: 0 3%;
+  }
+
+  .coclave h6 {
+    font-size: 1.5rem;
+  }
+  .team-highlights span {
+    font-size: 1.8rem;
+  }
+  .coclave.conclave-east-turn {
+    margin-bottom: 5%;
+  }
+  .coclave h6 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .wealth-management .overlap .r-mandala img,
+  .wealth-management .overlap .l-mandala img {
+    width: auto;
+    position: absolute;
+  }
+  .wealth-management {
+    padding-bottom: 5%;
+  }
+  .conclave-mandla {
+    width: 35%;
+  }
+  .coclave-zigzag {
+    margin-bottom: 0;
+  }
+  .carousel-control-next {
+    margin-right: -60px;
+  }
+  .carousel-control-prev {
+    margin-left: -70px;
+  }
+  .coclave p {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    padding-top: 20px;
+  }
+  .east-turn-section {
+    padding-top: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .coclave {
+    margin-right: 0;
+    padding-bottom: 3%;
+    margin-top: 3%;
+  }
+  .tablet-img {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 991px) and (max-width: 1280px) {
+  .carousel-control-prev {
+    margin-left: -77px;
+  }
+  .carousel-control-next {
+    margin-right: -45px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+}

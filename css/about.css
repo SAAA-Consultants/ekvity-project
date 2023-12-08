@@ -1,0 +1,544 @@
+#hero {
+  width: 100%;
+  background-size: cover;
+  /* position: relative; */
+  margin-top: 1rem;
+
+}
+
+.wealth-management {
+  overflow: hidden;
+  
+}
+
+.wealth-management .hero {
+  background-color: #f9f9f9;
+ 
+}
+
+.wealth-management .overlap {
+  position: relative;
+}
+
+.wealth-management .text-wrapper {
+  font-family: "Tenor Sans";
+  font-weight: 400;
+  color: #5c5c5c;
+  font-size: 2rem;
+  line-height: 1.5;
+  text-align: center;
+  width: 90%;
+
+}
+
+
+.wealth-management .text-wrapper-2 {
+  font-family: "Tenor Sans";
+  font-weight: 400;
+  color: #22366c;
+  font-size: 3.2rem;
+  letter-spacing: 0;
+
+
+}
+
+.wealth-management .overlap .l-mandala img {
+
+  width: 35vw;
+
+  margin-left: -20%;
+  height: 35vh;
+  opacity: 0.8;
+
+}
+.wealth-management.pre-ipo-banner .overlap .l-mandala img{
+  width: auto;
+  height: 85%;
+}
+
+.wealth-management.pre-ipo-banner .overlap .r-mandala img{
+  width: auto;
+  height: 85%;
+}
+.pre-ipo-banner-inner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 85%;
+}
+.wealth-management .overlap .r-mandala img {
+
+  margin-left: 20%;
+  height: 35vh;
+  width: 35vw;
+  opacity: 0.8;
+}
+.pre-ipo-banner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media (max-width: 768px) {
+
+  .accordion-button {
+      padding: 0.5rem 0.2rem;
+
+  }
+
+  /* .text-wrapper-2 {
+      font-size: 1.6rem;
+  } */
+
+  .wealth-management .overlap .l-mandala img {
+
+      
+      height: 10em;
+      position: absolute;
+      bottom: -30%;
+      left: 5%;
+      opacity: 0.5;
+      opacity: 0.5;
+      transform: rotate(270deg);
+
+  }
+
+  .wealth-management .overlap .r-mandala img {
+      position: absolute;
+      top: -40px;
+      right: -67px;
+      height: 10em;
+      opacity: 0.5;
+      transform: rotate(270deg);
+
+  }
+  .overlap-group svg{
+      height: 2rem;
+      width: 4rem;
+  }
+  .overlap-group .text-wrapper-2{
+      font-size: 2rem;
+  }
+  .wealth-management .text-wrapper{
+      font-size: 1.5rem;
+  }
+  .overlap-group.pre-ipo .text-wrapper-2{
+    font-size: 2rem;
+}
+.wealth-management.pre-ipo .text-wrapper{
+    font-size: 1.3rem;
+}
+  .overlap-group{
+      margin-top: 0;
+  }
+  
+}
+/* ------------------------------HERO SECTION END---------------------------------------------------- */
+
+.product-details .about-col-1 {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.product-details p {
+  font-family: "Tenor Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: #1d1d1d;
+  font-size: 2rem;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.product-details img {
+  width: 100%;
+  height: 100%;
+}
+
+.about-container {
+  padding-bottom: 5%;
+}
+
+.about-card-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+  justify-content: center;
+  align-items: center;
+}
+
+.about-card {
+  background-color: #ffffff;
+  padding: 40px 40px; /* Adjust padding for smaller screens */
+  border-radius: 8px;
+  width: 70%;
+  max-width: 700px; /* Set a maximum width for larger screens */
+}
+
+.about-text p {
+  color: #1D1D1D;
+text-align: justify;
+font-family: Tenor Sans;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-right: 10%;
+padding-left: 2%;
+  font-size: 1.8rem; /* Adjust font size for smaller screens */
+}
+
+.about-img {
+  margin-left: -5%;
+  flex: 1; /* Allow the image to take up remaining space */
+}
+.pre-ipo-hero-section{
+  height: 50vh;
+}
+/* .about-img img {
+  width: 100%;
+  height: auto;
+} */
+
+/* Media query for smaller screens */
+@media screen and (min-width: 280px) and (max-width: 768px) {
+ 
+ .about-card-container{
+  display: flex;
+  flex-direction: column;
+  margin-top: 8%;
+ }
+ .about-card{
+  width: 100%;
+  padding:auto;
+  margin: auto;
+ }
+ .about-text p{
+  padding: auto;
+  margin: auto;
+ }
+}
+@media screen and (min-width: 900px)  and (max-width: 1080px) {
+  .about-card {
+    width: 60%;
+  }
+  .about-text p{
+    font-size: 1.2rem;
+  }
+  .table-text{
+    height: 140px !important;
+  }
+}
+@media screen and (min-width: 768px)  and (max-width: 900px) {
+  .about-card {
+    width: 60%;
+  }
+  .about-text p{
+    font-size: 1.2rem;
+  }
+  .table-text {
+    height: 540px !important;
+  }
+}
+@media screen and (min-width: 1090px) and (max-width: 1400px) {
+  .about-card {
+    width: 60%;
+  }
+  .about-text p {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (min-width: 1100px) and (max-width: 1200px) {
+  .about-card {
+    width: 60%;
+  }
+  .about-text p {
+    font-size: 1.4rem;
+  }
+ 
+}
+.clients h1 {
+  padding-top: 5%;
+  color: #22366c;
+  font-family: "Tenor Sans";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  left: 50%;
+}
+.clients p {
+  color: #5c5c5c;
+  padding-top: 10px;
+  text-align: center;
+  font-family: "Tenor Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  padding-bottom: 30px;
+}
+.clients .bg-card {
+  position: absolute;
+  overflow: hidden;
+  opacity: 0.4;
+  right: 0;
+  top: 25;
+  width: 100%;
+  height: 100%;
+  max-height: 250px;
+  max-width: 150px;
+  vertical-align: middle;
+}
+.clients .client-vector {
+  position: absolute;
+  opacity: 0.8;
+  left: 0;
+  width: auto;
+  height: 100%;
+  max-height: 300px;
+  max-width: 200px;
+  vertical-align: middle;
+}
+/*--------------------------------------------------------------
+# Clients
+--------------------------------------------------------------*/
+.clients {
+  padding: 15px 0;
+  text-align: center;
+  background-color: rgba(246, 246, 247, 1);
+}
+
+.clients .img-fluid {
+  max-width: 55%;
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  padding: 35px 0;
+  filter: grayscale(100);
+}
+
+.clients .img-fluid:hover {
+  filter: none;
+  /* transform: scale(1.15); */
+}
+
+
+.clients .img-fluid-1 {
+  max-width: 45%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40rem;
+  filter: grayscale(100);
+}
+
+.clients .img-fluid-1:hover {
+  filter: none;
+  /* transform: scale(1.15); */
+}
+
+@media (max-width: 768px) {
+  .clients .img-fluid-1 {
+    max-width: 40%;
+  }
+}
+.table-section .table-section {
+  justify-content: center;
+  background-color: rgba(246, 246, 247, 1);
+}
+
+.table-heding h1 {
+  color: #22366c;
+  font-family: "Tenor Sans";
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 0px 0px 0px 40px;
+}
+hr {
+  color: #5c5c5c;
+  height: 1.5px;
+}
+h2 {
+  font-family: Tenor Sans;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.table-section h1 {
+  /* padding: 20px; */
+  color: #22366c;
+  font-family: "Tenor Sans";
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+table {
+  border-collapse: separate !important;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #22366c;
+  transition: background-color 0.3s;
+}
+/* .table-cards{
+  border: 1px solid;
+  border-color: #22366c;
+  border-radius: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+
+} */
+.table-cards{
+  border-radius: 10px;
+}
+tbody {
+  border-radius: 10px;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  color: #22366c; /* Initial color */
+ 
+}
+.table-text {
+  border-right: 1px solid #ddd; /* Adjust the color as needed */
+  text-align: left;
+  width: 100%;
+  max-width: 200px;
+  padding: 10px;
+  max-height: 120px;
+  height: 85px;
+  
+}
+.table-text p {
+ padding: 0rem 0rem 2rem 0rem;
+ line-height: 2rem;
+}
+td:last-child {
+  border-right: none;
+}
+th {
+  border-bottom: 1px solid;
+  padding: 2rem;
+  font-size: 2.5rem;
+  
+}
+
+table:hover {
+  background-color: #22366c;
+}
+
+table:hover th {
+  color: white;
+}
+table:hover td {
+  color: white;
+}
+table:hover span {
+  color: rgb(150, 145, 6);
+}
+table,
+span {
+  color: #1D1D1D;
+}
+table{
+  padding: 1%;
+}
+@media (max-width: 768px) {
+  .table-cards{
+    border: 1px solid;
+    border-color: #22366c;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-right: 5%;}
+  .table-text{
+    width: 170px;
+  max-width: 200px;
+  max-height: 120px;
+  height: 95px;
+  }
+  .client-vector{
+  display: none;
+  }
+  .clients.preview-offering p{
+    font-size: 1.5rem;
+    text-align: justify;
+    padding: 0 6%;
+    padding-top: 4%;
+  }
+  .clients h1{
+    font-size: 2rem;
+  }
+  .clients .img-fluid{
+    max-width: 70% !important;
+    padding: 20px 0;
+  }
+  .pre-ipo-hero-section{
+    height: auto;
+  }
+  .clients .img-fluid {
+    max-width: 40%;
+  }
+  .wealth-management.pre-ipo{
+    padding-bottom: 0% !important;
+    padding-top: 6% !important;
+  }
+  .wealth-management{
+    padding-bottom: 5% !important;
+    padding-top: 6% !important;
+  }
+  .wealth-management .overlap{
+    padding-bottom: 4%;
+  }
+  .wealth-management.pre-ipo-banner .overlap{
+    padding-bottom: 8%;
+    padding-top: 12%;
+  }
+  .about-text p{
+    font-size: 1.5rem;
+    padding-left: 0;
+    padding-right:0;
+  }
+  .about-card{
+    padding: 25px;
+  }
+  .wealth-management.pre-ipo-banner .overlap .r-mandala img {
+    width: 30%;
+    height: 100%;
+  }
+  .wealth-management.pre-ipo-banner .overlap .l-mandala img {
+    width: 30%;
+    height: 100%;
+  }
+  .table-cards{
+    border: 1px solid;
+    border-color: #22366c;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-right: 5%;}
+
+    .table{
+      border: none !important;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 468px) {
+  .table-cards{
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 1px solid;
+    border-color: #22366c;
+    border-radius: 10px;
+  }
+}
+
